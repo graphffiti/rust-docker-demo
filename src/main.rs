@@ -9,7 +9,7 @@ async fn index() -> impl Responder {
 #[actix_web::main] // or #[tokio::main]
 async fn main() -> std::io::Result<()> {
     HttpServer::new(|| App::new().service(index))
-        .bind(("0.0.0.0", 8080))?
+        .bind(("0.0.0.0", 8081))?
         .run()
         .await
 }
