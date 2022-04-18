@@ -1,1 +1,3 @@
 /target
+.travis*
+app.json
