@@ -1,0 +1,8 @@
+build:
+  docker:
+    release:
+      dockerfile: Dockerfile
+      target: runtime
+    web: Dockerfile
+run:
+  web: ./target/release/graphffiti-dev
