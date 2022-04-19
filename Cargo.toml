@@ -1,5 +1,5 @@
 [package]
-name = "graphffiti-dev"
+name = "rust-docker-demo"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,4 +8,5 @@ edition = "2021"
 [dependencies]
 actix-web = "4.0.1"
 actix-files = "0.6.0"
+actix-web-lab = "0.16.0"
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
